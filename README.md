@@ -27,9 +27,8 @@ philosopher dies.
 
 ## Compilation and Execution
 ### Requirements
-- cc compiler (e.g., `gcc`).
-- POSIX Threads (pthreads) library.
-  `Compilation`: use cmd make to execute
+- [cc](https://wiki.crowncloud.net/?How_to_Install_GCC_on_Debian_11) compiler (e.g., `gcc`).
+- `Compilation`: use cmd make to execute
   `execution`: ./philosophers <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> and optional parammeter <number_of_times_each_philosopher_must_eat>
 
 ### Compilation and execution
