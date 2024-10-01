@@ -36,6 +36,6 @@ philosopher dies.
 To compile the program, use the following command:
 ```bash
   git clone git@github.com:moelkama/philosophers.git
-  cd philosophers
+  cd philosophers/philo
   make
   ./philosophers 20 400 100 100
