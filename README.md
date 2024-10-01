@@ -16,7 +16,7 @@ Each philosopher is represented by a thread, and all philosophers must eat at le
 ## Features
 - Multi-threaded simulation of philosophers using pthreads.
 - Dynamically adjustable number of philosophers (`N`).
-- Simulation terminates when a philosopher dies or after all philosophers have eaten at least once.
+- Simulation terminates when a philosopher dies or after all philosophers have eaten at least   `number_of_times_each_philosopher_must_eat`.
 - Fork sharing mechanism to avoid deadlock.
 - Customizable time settings for `time_to_eat` and `time_to_die`.
 
