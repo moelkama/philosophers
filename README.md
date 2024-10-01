@@ -11,6 +11,10 @@ Each philosopher is represented by a thread, and all philosophers must eat at le
   - `time_to_eat`: The time a philosopher takes to eat.
   - `time_to_sleep`: The time a philosopher takes to sleep.
   - `time_to_die`: The maximum time a philosopher can wait without eating before they die.
+  - `number_of_times_each_philosopher_must_eat` (optional argument): If all
+philosophers have eaten at least number_of_times_each_philosopher_must_eat
+times, the simulation stops. If not specified, the simulation stops when a
+philosopher dies.
 - **Threads**: Each philosopher is represented by a separate thread, simulating the concurrent behavior of philosophers trying to eat.
 - **Termination**: If any philosopher waits longer than `time_to_die` before getting the required forks, the philosopher dies, and the simulation halts.
 
