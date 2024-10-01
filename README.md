@@ -8,9 +8,9 @@ Each philosopher is represented by a thread, and all philosophers must eat at le
 ## How It Works
 - **Philosophers and Forks**: Each philosopher has one fork, and a philosopher needs two forks to start eating.
 - **Time Constraints**:
-  - `time_to_eat`: The time a philosopher takes to eat.
-  - `time_to_sleep`: The time a philosopher takes to sleep.
-  - `time_to_die`: The maximum time a philosopher can wait without eating before they die.
+  - `time_to_eat`(in milliseconds): The time a philosopher takes to eat.
+  - `time_to_sleep`(in milliseconds): The time a philosopher takes to sleep.
+  - `time_to_die`(in milliseconds): The maximum time a philosopher can wait without eating before they die.
   - `number_of_times_each_philosopher_must_eat` (optional argument): If all
 philosophers have eaten at least number_of_times_each_philosopher_must_eat
 times, the simulation stops. If not specified, the simulation stops when a
