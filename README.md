@@ -27,12 +27,15 @@ philosopher dies.
 
 ## Compilation and Execution
 ### Requirements
-- A C compiler (e.g., `gcc`).
+- cc compiler (e.g., `gcc`).
 - POSIX Threads (pthreads) library.
+  `Compilation`: use cmd make to execute
+  `execution`: ./philosophers <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> and optional parammeter <number_of_times_each_philosopher_must_eat>
 
 ### Compilation and execution
 To compile the program, use the following command:
 ```bash
+  git clone git@github.com:moelkama/philosophers.git
+  cd philosophers
   make
-  ./philosophers <number_of_philosophers> <time_to_die> <time_to_eat> and optional parammeter <number_of_times_each_philosopher_must_eat>
-
+  ./philosophers 20 400 100 100
