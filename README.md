@@ -1,7 +1,7 @@
 # Dining Philosophers Simulation
 
 ## Overview
-This project is a simulation of the classic **Dining Philosophers Problem** implemented in C. The problem involves `N` philosophers sitting around a table, where each philosopher has one fork and a plate of spaghetti. To eat, a philosopher requires two forks, so they must wait for their neighbors to finish eating. The simulation includes time constraints: if a philosopher waits too long (more than `time_to_die`) without eating, they die, and the simulation stops.
+This project is a simulation of the classic **[Dining Philosophers Problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem)** implemented in C. The problem involves `N` philosophers sitting around a table, where each philosopher has one fork and a plate of spaghetti. To eat, a philosopher requires two forks, so they must wait for their neighbors to finish eating. The simulation includes time constraints: if a philosopher waits too long (more than `time_to_die`) without eating, they die, and the simulation stops.
 
 Each philosopher is represented by a thread, and all philosophers must eat at least once before they die. The program simulates this scenario, ensuring that philosophers can eat while avoiding deadlock situations.
 
