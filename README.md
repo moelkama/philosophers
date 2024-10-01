@@ -29,7 +29,7 @@ philosopher dies.
 ### Requirements
 - [cc](https://wiki.crowncloud.net/?How_to_Install_GCC_on_Debian_11) compiler (e.g., `gcc`).
 - `Compilation`: use cmd make to execute
-  `execution`: ./philosophers <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> and optional parammeter <number_of_times_each_philosopher_must_eat>
+- `execution`: ./philosophers <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> and optional parammeter <number_of_times_each_philosopher_must_eat>
 
 ### Compilation and execution
 To compile the program, use the following command:
