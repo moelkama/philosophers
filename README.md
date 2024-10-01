@@ -9,6 +9,7 @@ Each philosopher is represented by a thread, and all philosophers must eat at le
 - **Philosophers and Forks**: Each philosopher has one fork, and a philosopher needs two forks to start eating.
 - **Time Constraints**:
   - `time_to_eat`: The time a philosopher takes to eat.
+  - `time_to_sleep`: The time a philosopher takes to sleep.
   - `time_to_die`: The maximum time a philosopher can wait without eating before they die.
 - **Threads**: Each philosopher is represented by a separate thread, simulating the concurrent behavior of philosophers trying to eat.
 - **Termination**: If any philosopher waits longer than `time_to_die` before getting the required forks, the philosopher dies, and the simulation halts.
@@ -28,4 +29,4 @@ Each philosopher is represented by a thread, and all philosophers must eat at le
 ### Compilation
 To compile the program, use the following command:
 ```bash
-gcc -o philosophers philosophers.c -lpthread
+  make
